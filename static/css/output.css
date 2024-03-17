@@ -1540,6 +1540,10 @@ video {
   padding-top: 5rem;
 }
 
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .pt-8 {
   padding-top: 2rem;
 }
@@ -2250,6 +2254,10 @@ video {
 
   .md\:border-b {
     border-bottom-width: 1px;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
   }
 
   .md\:pt-24 {
