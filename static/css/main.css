@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 
+    Custom Classes
+ */
+
+ .action-highlighter {
+    @apply bg-blue-700 text-white -skew-y-3 inline-block p-2 text-3xl hover:skew-y-0 transition-all duration-300;
+ }
