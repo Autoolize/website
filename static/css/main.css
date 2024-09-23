@@ -9,3 +9,6 @@
  .action-highlighter {
     @apply bg-blue-700 text-white -skew-y-3 inline-block p-2 text-3xl hover:skew-y-0 transition-all duration-300;
  }
+ .tab-active {
+   @apply bg-white text-blue-700 shadow *:hover:bg-white;
+}
